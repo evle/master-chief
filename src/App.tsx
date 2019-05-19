@@ -1,9 +1,9 @@
 import React from "react";
-import logo from "./logo.svg";
-import "./App.css";
-import Confirm from "./Confirm";
 // import Header from "./components/Header/";
 import Carousel from "./components/Carousel";
+
+import "normalize.css";
+import "./App.css";
 
 interface IState {
   confirmOpen: boolean;

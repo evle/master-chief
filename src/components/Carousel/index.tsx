@@ -5,7 +5,7 @@ import img2 from "./img/slider-2.jpg";
 import img3 from "./img/slider-3.jpg";
 import img4 from "./img/slider-4.jpg";
 
-import "./index.css";
+import "./index.scss";
 
 export default class Carousel extends Component {
   render() {
@@ -20,6 +20,7 @@ export default class Carousel extends Component {
 
     return (
       <div>
+        <span className="carousel carousel--red">test sass</span>
         <Slider {...settings}>
           <div>
             <img src={img1} />
